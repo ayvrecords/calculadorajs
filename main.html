@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULADORA</title>
-    <style src="./style.css"></style>
+    <link rel="stylesheet" href="./style.css">
     <script src="./codigo.js"></script>
 </head>
 <body>
-    <form action="calculame">
-        <input type="text" id="numero1">
-        <p>+</p>
-        <input type="text" id="numero2">
-        <p>=</p>
-        <input type="text" id="RESULTADO"> <br><br>
-
-        <button>RESULTADO</button>
-    </form>
+    <div class="contenedor">
+        <form action="calculame">
+            <input type="text" id="numero1">
+            <p>+</p>
+            <input type="text" id="numero2">
+            <p>=</p>
+            <input type="text" id="RESULTADO" readonly > <br><br>
+             <!--readonly se utiliza para no escribir en el input -->
+    
+            <button type="button" class="btn" value="resultado">RESULTADO</button>
+        </form>
+    </div>
+    
     
 </body>
 </html>
