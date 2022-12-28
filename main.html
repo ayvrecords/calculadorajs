@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULADORA</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./codigo.js"></script>
+    
 </head>
 <body>
     <div class="contenedor">
@@ -15,13 +15,13 @@
             <p>+</p>
             <input type="text" id="numero2">
             <p>=</p>
-            <input type="text" id="RESULTADO" readonly > <br><br>
+            <input type="text" id="resultado" readonly > <br><br>
              <!--readonly se utiliza para no escribir en el input -->
     
-            <button type="button" class="btn" value="resultado">RESULTADO</button>
+            <button type="button" onclick="suma()"  class="btn" value="resultado">RESULTADO</button>
         </form>
     </div>
     
-    
+    <script src="./codigo.js"></script>
 </body>
 </html>
